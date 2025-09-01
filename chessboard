@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chessboard</title>
+</head>
+<body>
+  <h1>Chessboard</h1>
+  <table border="1" cellspacing="0" cellpadding="20">
+    <!-- Rank 8 -->
+    <tr>
+      <td bgcolor="black" style="color:white">♜</td>
+      <td bgcolor="white">♞</td>
+      <td bgcolor="black" style="color:white">♝</td>
+      <td bgcolor="white">♛</td>
+      <td bgcolor="black" style="color:white">♚</td>
+      <td bgcolor="white">♝</td>
+      <td bgcolor="black" style="color:white">♞</td>
+      <td bgcolor="white">♜</td>
+    </tr>
+    <!-- Rank 7 -->
+    <tr>
+      <td bgcolor="white">♟</td>
+      <td bgcolor="black" style="color:white">♟</td>
+      <td bgcolor="white">♟</td>
+      <td bgcolor="black" style="color:white">♟</td>
+      <td bgcolor="white">♟</td>
+      <td bgcolor="black" style="color:white">♟</td>
+      <td bgcolor="white">♟</td>
+      <td bgcolor="black" style="color:white">♟</td>
+    </tr>
+    <!-- Rank 6 -->
+    <tr>
+      <td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td>
+      <td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td>
+    </tr>
+    <!-- Rank 5 -->
+    <tr>
+      <td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td>
+      <td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td>
+    </tr>
+    <!-- Rank 4 -->
+    <tr>
+      <td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td>
+      <td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td>
+    </tr>
+    <!-- Rank 3 -->
+    <tr>
+      <td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td>
+      <td bgcolor="white"></td><td bgcolor="black"></td><td bgcolor="white"></td><td bgcolor="black"></td>
+    </tr>
+    <!-- Rank 2 -->
+    <tr>
+      <td bgcolor="black" style="color:white">♙</td>
+      <td bgcolor="white">♙</td>
+      <td bgcolor="black" style="color:white">♙</td>
+      <td bgcolor="white">♙</td>
+      <td bgcolor="black" style="color:white">♙</td>
+      <td bgcolor="white">♙</td>
+      <td bgcolor="black" style="color:white">♙</td>
+      <td bgcolor="white">♙</td>
+    </tr>
+    <!-- Rank 1 -->
+    <tr>
+      <td bgcolor="white">♖</td>
+      <td bgcolor="black" style="color:white">♘</td>
+      <td bgcolor="white">♗</td>
+      <td bgcolor="black" style="color:white">♕</td>
+      <td bgcolor="white">♔</td>
+      <td bgcolor="black" style="color:white">♗</td>
+      <td bgcolor="white">♘</td>
+      <td bgcolor="black" style="color:white">♖</td>
+    </tr>
+  </table>
+</body>
+</html>
