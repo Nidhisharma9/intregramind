@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nidhi Sharma — Resume (Plain HTML)</title>
+</head>
+<body>
+<h1>Nidhi Sharma</h1>
+<p><strong>Roll:</strong> 2315001459 &nbsp; | &nbsp; <strong>Section:</strong> M '44</p>
+
+<h2>Contact</h2>
+<p>Email: nidhiisharma639@gmail.com<br>
+    Phone: +91 6397420597<br>
+    Location: India<br>
+    GitHub: github.com/Nidhisharma9</p>
+
+<h2>Objective</h2>
+<p>Dedicated and enthusiastic Computer Science student, eager to apply my skills in frontend development and problem solving. My goal is to gain practical experience through internships, contribute to impactful projects, and continuously grow as a developer while preparing for placements.</p>
+
+<h2>Education</h2>
+<ul>
+    <li><strong>B.Tech (CSE)</strong> — GLA University, Mathura, Uttar Pradesh (2024 — 2027) <br> Current CPI (till 4th semester): 74%</li>
+    <li><strong>Senior Secondary</strong> — School Name (Year — Percentage)</li>
+</ul>
+
+<h2>Projects</h2>
+<ul>
+    <li><strong>Portfolio Website:</strong> Built with HTML, CSS, and basic JavaScript. Features project gallery and contact form.</li>
+    <li><strong>Employee Management Homepage:</strong> Static frontend inspired by Elipso theme; includes cards and images.</li>
+</ul>
+
+<h2>Technical Skills</h2>
+<p>HTML, CSS, JavaScript, React (learning), Git, Responsive Design</p>
+
+<h2>Tools</h2>
+<p>VS Code, Chrome DevTools, GitHub, Figma (basics)</p>
+
+<h2>Achievements & Activities</h2>
+<ul>
+    <li>Active member of college coding club</li>
+    <li>Practicing DSA on LeetCode</li>
+</ul>
+
+<h2>Languages</h2>
+ <p>Hindi (native), English (fluent)</p>
+
+
+</body>
+</html>
