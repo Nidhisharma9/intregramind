@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ordered & Unordered Bullet Lists</title>
+</head>
+<body>
+<h1>Ordered and Unordered Lists — Examples</h1>
+
+<h2>Unordered Lists (Bullets)</h2>
+<p>Simple bullet list using <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code>:</p>
+<ul>
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+</ul>
+
+<p>Nested unordered list:</p>
+<ul>
+    <li>Fruits
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+    </li>
+    <li>Vegetables
+    <ul>
+        <li>Carrot</li>
+        <li>Spinach</li>
+    </ul>
+    </li>
+</ul>
+
+<h2>Ordered Lists (Numbered)</h2>
+<p>Simple ordered list using <code>&lt;ol&gt;</code>:</p>
+<ol>
+    <li>First step</li>
+    <li>Second step</li>
+    <li>Third step</li>
+</ol>
+
+<p>Ordered list with nested unordered list:</p>
+<ol>
+    <li>Prepare materials
+    <ul>
+        <li>Notebook</li>
+        <li>Pen</li>
+    </ul>
+    </li>
+    <li>Practice</li>
+    <li>Submit</li>
+</ol>
+
+<h2>Different List Types</h2>
+<p>Ordered list types (use the <code>type</code> attribute):</p>
+<ol type="1">
+    <li>One</li>
+    <li>Two</li>
+</ol>
+<ol type="A">
+    <li>Alpha</li>
+    <li>Beta</li>
+</ol>
+<ol type="a">
+    <li>alpha</li>
+    <li>beta</li>
+</ol>
+<ol type="i">
+    <li>i</li>
+    <li>ii</li>
+</ol>
+
+</body>
+</html>
