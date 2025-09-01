@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College Event Registration Form</title>
+</head>
+<body>
+<h1>College Event Registration</h1>
+<p>Fill this form to register for the college event </p>
+
+<form action="#" method="post" autocomplete="on">
+    <fieldset>
+    <legend>Personal Details</legend>
+
+    <label for="fullname">Full Name*</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="Nidhi Sharma" required><br><br>
+
+    <label for="roll">University Roll Number*</label><br>
+    <input type="text" id="roll" name="roll" placeholder="2315001459" required><br><br>
+
+    <label for="section">Section</label><br>
+    <input type="text" id="section" name="section" placeholder="M '44"><br><br>
+
+    <label for="year">Year / Semester*</label><br>
+    <input type="text" id="year" name="year" placeholder="2nd year / 4th sem" required><br><br>
+
+    <label for="email">Email*</label><br>
+    <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+    <label for="phone">Phone (10 digits)*</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="6397420597" pattern="\d{10}" maxlength="10" required><br><br>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Event Details</legend>
+
+    <label for="event">Select Event*</label><br>
+    <select id="event" name="event" required>
+        <option value="">-- Choose an event --</option>
+        <option value="coding">Coding Competition</option>
+        <option value="design">UI/UX Design Challenge</option>
+        <option value="dance">Dance</option>
+        <option value="music">Music</option>
+        <option value="quiz">Quiz</option>
+        <option value="sports">Sports (e.g., Badminton)</option>
+    </select><br><br>
+
+    <label>Participation Type*</label><br>
+    <input type="radio" id="solo" name="participation" value="solo" required>
+    <label for="solo">Solo</label>
+    <input type="radio" id="team" name="participation" value="team">
+    <label for="team">Team</label><br><br>
+
+    <label for="teamname">If team, Team Name</label><br>
+    <input type="text" id="teamname" name="teamname" placeholder="Team Alpha"><br><br>
+
+    <label for="teammates">Team Members (comma separated)</label><br>
+    <input type="text" id="teammates" name="teammates" placeholder="Name1, Name2, ..."><br><br>
+
+    <label for="tshirt">T-shirt Size</label><br>
+    <select id="tshirt" name="tshirt">
+        <option value="">-- Select size --</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+    </select><br><br>
+
+    <label for="cpi">Current CPI / Percentage</label><br>
+    <input type="text" id="cpi" name="cpi" placeholder="74"><br><br>
+
+    <label for="notes">Any food/allergy or special requests</label><br>
+    <textarea id="notes" name="notes" rows="3" cols="40" placeholder="Write if any..."></textarea><br><br>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Consent & Submit</legend>
+
+    <input type="checkbox" id="rules" name="rules" required>
+    <label for="rules">I have read and agree to the event rules and code of conduct.*</label><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+
+    </fieldset>
+</form>
+
+<p><small>Note: This is a static HTML form. To actually collect submissions, connect `action` to a server or use a service that accepts form posts.</small></p>
+</body>
+</html>
